@@ -10,7 +10,7 @@ console.log('`About` component loaded asynchronously');
 
 @Component({
   selector: 'about',
-  template: `patrick@AngularClass.com`
+  template: `this is about`
 })
 export class About {
   constructor() {

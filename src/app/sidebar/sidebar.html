@@ -1,0 +1,12 @@
+<div class="sidebar">
+  <div *ngFor="#section of sections">
+    <div class="section">
+      {{section.header}}
+    </div>
+    <button
+      class="sub-section mdl-button mdl-js-button mdl-button--raised"
+      *ngFor="#subSection of section.subSections">
+      {{subSection}}
+    </button>
+  </div>
+</div>

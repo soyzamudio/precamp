@@ -19,10 +19,9 @@ export class Sidebar {
         ]
       },
       {
-        header: 'Meetups',
+        header: 'Help',
         subSections: [
-          'By Location',
-          'By Category'
+          'Forum'
         ]
       }
     ];

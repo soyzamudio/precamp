@@ -1,0 +1,19 @@
+<div
+  *ngFor="#challenge of challenges; #index = index"
+  [routerLink]="[challenge.url]">
+  <div class="challenge">Challenge #{{index + 1}}<div>
+  <div class="sub-challenge">
+    <span class="title">
+      {{challenge.name}}
+      <p>{{challenge.description}}</p>
+    </span>
+    <span>
+      <input
+        id="checkbox-1"
+        class="mdl-checkbox__input"
+        type="checkbox"
+        [checked]="checkCompleted(index)"
+        disabled>
+    </span>
+  </div>
+</div>
